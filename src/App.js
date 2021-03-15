@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstBar from './component/FirstBar';
+import HeadBar from './component/HeadBar';
+import CarouselContainer from './component/CarouselContainer';
+import CarouselContainer1 from './component/CarouselContainer1';
+import Slide1 from './component/Slide1';
+import Slide2 from './component/Slide2';
+import Slide3 from './component/Slide3';
+import Slide4 from './component/Slide4';
+import CarouselContainer2 from './component/CarouselContainer2';
+import CarouselContainer3 from './component/CarouselContainer3';
+import Slide5 from './component/Slide5';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstBar />
+      <HeadBar />
+      <CarouselContainer />
+      <Slide1 />
+      <Slide2 />
+      <Slide3 />
+      <Slide4 />
+      <CarouselContainer1 />
+      <CarouselContainer2 />
+      <CarouselContainer3 />
+      <Slide5 />
     </div>
   );
 }

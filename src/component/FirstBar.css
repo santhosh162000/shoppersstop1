@@ -1,0 +1,50 @@
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top-hook {
+  background: #383435;
+  position: relative;
+}
+
+.top-hook::after {
+  content: " ";
+  position: absolute;
+  background: #000;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  opacity: 0.13;
+  display: block;
+}
+
+.top-hook__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.top-hook__title {
+  color: #fff;
+  font-size: 12px;
+}
+
+.top-hook__nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.top-hook__nav-list a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 12px;
+  text-decoration: none;
+}
