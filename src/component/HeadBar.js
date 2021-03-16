@@ -1,6 +1,9 @@
 import React from "react";
 import image from './../assets/images/i.png';
 import "./HeadBar.css";
+import * as AiIcons from "react-icons/ai";
+import * as BiIcons from "react-icons/bi";
+import * as HiIcons from "react-icons/hi";
 
 const HeadBar = () => {
   return (
@@ -16,17 +19,22 @@ const HeadBar = () => {
           <div className="top-bar__searchbar">
             <div className="top-bar__searchbar__container">
               <input type="text" placeholder="Search Products & Brands" />
-              <button>Search</button>
+              <button><BiIcons.BiSearch size={40} color="black"/></button>
             </div>
           </div>
           <div className="top-bar__cart">
             <div>
-              <p>Wishlist</p>
+              <AiIcons.AiOutlineHeart /> <p>Wishlist</p>
             </div>
           </div>
           <div className="top-bar__sign-in">
             <div>
-              <p>MyBag</p>
+              <BiIcons.BiShoppingBag /> <p>MyBag</p>
+            </div>
+            </div>
+            <div className="top-bar__profile">
+            <div>
+              <HiIcons.HiUserCircle size={40}/>
             </div>
           </div>
         </div>
