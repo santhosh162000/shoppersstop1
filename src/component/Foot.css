@@ -4,11 +4,11 @@ ul {
   padding: 0;
 }
 
-.top-hook {
-  background: #383435;
+.top-hook2 {
+  background: #292929;
 }
 
-.top-hook::after {
+.top-hook2::after {
   content: " ";
   position: absolute;
   background: #000;
@@ -19,7 +19,7 @@ ul {
   display: block;
 }
 
-.top-hook__container {
+.top-hook__container2 {
   max-width: 1300px;
   max-height: 30px;
   margin: 0 auto;
@@ -30,30 +30,30 @@ ul {
   z-index: 2;
 }
 
-.top-hook__title {
+.top-hook__title2 {
   color: #fff;
   font-size: 12px;
   padding-top: 6px;
 }
 
-.top-hook__nav-list {
+.top-hook__nav-list2 {
   display: flex;
   list-style: none;
   margin: 0;
 }
 
-.top-hook__nav-list a {
+.top-hook__nav-list2 a {
   color: #fff;
   margin-left: 20px;
   font-size: 12px;
   text-decoration: none;
 }
-.top-hook__nav-list a {
+.top-hook__nav-list2 a {
   text-decoration: none;
 }
-.top-hook__nav-list a:hover 
+.top-hook__nav-list2 a:hover 
 {
-   color:#ff0000; 
+   color:#fff; 
    text-decoration:none; 
    cursor:pointer;
 }

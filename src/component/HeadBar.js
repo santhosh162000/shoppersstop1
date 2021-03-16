@@ -19,22 +19,22 @@ const HeadBar = () => {
           <div className="top-bar__searchbar">
             <div className="top-bar__searchbar__container">
               <input type="text" placeholder="Search Products & Brands" />
-              <button><BiIcons.BiSearch size={40} color="black"/></button>
+              <button><BiIcons.BiSearch size={20} color="LightGray"/></button>
             </div>
           </div>
           <div className="top-bar__cart">
             <div>
-              <AiIcons.AiOutlineHeart /> <p>Wishlist</p>
+            <a href="/#"><AiIcons.AiOutlineHeart /> <p>Wishlist</p></a>
             </div>
           </div>
           <div className="top-bar__sign-in">
             <div>
-              <BiIcons.BiShoppingBag /> <p>MyBag</p>
+            <a href="/#"><BiIcons.BiShoppingBag /> <p>MyBag</p></a>
             </div>
             </div>
             <div className="top-bar__profile">
             <div>
-              <HiIcons.HiUserCircle size={40}/>
+            <a href="/#"><HiIcons.HiUserCircle size={40}/></a>
             </div>
           </div>
         </div>

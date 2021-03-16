@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+    text-align: left;
+  }
+  
+  .links-card {
+    margin-bottom: 2px;
+  }
+  
+  .links-card-heading {
+    padding-top: 0px;
+    font-size: 14px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #d9dcdd;
+    text-align: left;
+  }
+  
+  .links-card-li {
+    height: 25px;
+  }
+  
+  .links-card-a {
+    color: #a5a5a5;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links-card-a:hover {
+    color: #666;
+  }

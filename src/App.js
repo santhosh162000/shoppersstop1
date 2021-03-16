@@ -12,12 +12,18 @@ import CarouselContainer3 from './component/CarouselContainer3';
 import Slide5 from './component/Slide5';
 import CarouselContainer4 from './component/CarouselContainer4';
 import Slide6 from './component/Slide6';
+import NextBar from './component/NextBar';
+import Footer4 from './component/Footer4';
+import Footer3 from './component/Footer3';
+import Footer2 from './component/Footer2';
+import Foot from './component/Foot';
 
 function App() {
   return (
     <div className="App">
       <FirstBar />
       <HeadBar />
+      <NextBar />
       <CarouselContainer />
       <Slide1 />
       <Slide2 />
@@ -29,6 +35,10 @@ function App() {
       <Slide5 />
       <CarouselContainer4 />
       <Slide6 />
+      <Footer2 />
+      <Foot />
+      <Footer3 />
+      <Footer4 />
     </div>
   );
 }
