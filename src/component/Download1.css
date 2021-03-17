@@ -1,0 +1,135 @@
+.downloada {
+    background: rgb(255, 255, 255);
+    background-position: right top;
+    margin-top: 40px;
+    height: 150px;
+  } 
+  
+  .download-containera {
+    max-width: 1300px;
+    margin: 0 0;
+    padding: 0px 0px;
+    display: flex;
+  }
+  
+  .download-contenta {
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .download-desc1a,
+  .download-desc2a {
+    font-size: 17.6px;
+    font-weight: normal;
+    line-height: 1.84;
+    color: #777777;
+    margin-left: -6px;
+  }
+  .download-desc3a {
+    margin-right: 0px;
+    margin-top: -140px;
+    width: 55%;
+    flex-direction: row;
+    font-size: 17.6px;
+    font-weight: normal;
+    line-height: 1.84;
+    color: #777777;
+    margin-left: 700px;
+  }
+.download-desc4a {
+  margin-right: -200px;
+  margin-top: -10px;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  font-size: 17.6px;
+  font-weight: normal;
+  line-height: 1.84;
+  color: #777777;
+  margin-left: 500px;
+}
+  
+  .download-storea {
+    color: red;
+    display: flex;
+    width: 100%;
+    align-items: left;
+    text-decoration: underline;
+  }
+  
+  .download-storea {
+    margin-top: 0px;
+    margin-left: 100px;
+    display: flex;
+  }
+  
+  .download-store1a {
+    height: 45px;
+    width: 160px;
+    margin-right: 0px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .download-store2a {
+    height: 45px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+  .download-store3a {
+    margin-top: -150px;
+    margin-left: 600px;
+    display: list-item;
+    margin-bottom: 300px;
+    height: 90px;
+    cursor: pointer;
+  }
+  .download-store4a {
+    margin-top: -400px;
+    margin-left: 1150px;
+    display: list-item;
+    margin-bottom: 300px;
+    height: 80px;
+    cursor: pointer;
+  }
+  .top-hook__nav-lis1 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: 160px;
+  }
+  
+  .top-hook__nav-lis1 a {
+    color: #fff;
+    margin-left: 200px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 700px) {
+    .download-containera {
+      flex-direction: column;
+      padding-bottom: 20px;
+      margin-top: 20px;
+    }
+    .download-img-containera {
+      width: 50%;
+    }
+    .download-contenta {
+      width: 80%;
+      margin-top: 20px;
+    }
+    .download-titlea {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.33;
+      color: #222222;
+      margin-bottom: 15px;
+    }
+  }

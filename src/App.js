@@ -23,6 +23,7 @@ import Slide9 from './component/Slide9';
 import DownloadApp1 from './component/Slide10';
 import DownloadApp from './component/Download';
 import CarouselContainer5 from './component/CarouselContainer5';
+import DownloadAppa from './component/Download1';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <Slide9 />
       <CarouselContainer5 />
       <DownloadApp />
+      <DownloadAppa />
       <Footer2 />
       <Foot />
       <Footer3 />
