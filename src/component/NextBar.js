@@ -35,7 +35,7 @@ const NextBar = () => {
                         <a href="/#">GIFTS</a>
                     </li>
                     <li>
-                        <a href="/#">DISCOVER</a>
+                        <a href="#/">DISCOVER</a>
                     </li>
             </ul>
             </div>

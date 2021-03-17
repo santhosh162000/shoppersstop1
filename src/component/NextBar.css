@@ -11,13 +11,14 @@ ul {
 
 .top-hook__container1 {
   max-width: 1500px;
-  padding: 15px 90px;
+  padding: 15px 100px;
 }
 
 .top-hook__nav-list1 {
   display: flex;
   list-style: none;
   margin: 0;
+  font-weight: 500;
 }
 
 .top-hook__nav-list1 a {
