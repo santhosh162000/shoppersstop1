@@ -24,7 +24,7 @@ const HeadBar = () => {
           </div>
           <div className="top-bar__cart">
             <div>
-            <a href="/#"><AiIcons.AiOutlineHeart /> <p>Wishlist</p></a>
+              <a href="/#"><AiIcons.AiOutlineHeart /> <p>Wishlist</p></a>
             </div>
           </div>
           <div className="top-bar__sign-in">
@@ -34,7 +34,7 @@ const HeadBar = () => {
             </div>
             <div className="top-bar__profile">
             <div>
-            <a href="/#"><HiIcons.HiUserCircle size={40}/></a>
+              <HiIcons.HiUserCircle size={40}/>
             </div>
           </div>
         </div>

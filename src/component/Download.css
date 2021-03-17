@@ -1,0 +1,117 @@
+.download {
+    background: rgb(252, 250, 250);
+    background-position: right top;
+    margin-top: 50px;
+    height: 200px;
+  } 
+  
+  .download-container {
+    max-width: 1300px;
+    margin: 0 0;
+    padding: 0px 0px;
+    display: flex;
+  }
+  
+  .download-content {
+    margin-right: 60px;
+    margin-top: 30px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .download-desc1,
+  .download-desc2 {
+    font-size: 17.6px;
+    font-weight: normal;
+    line-height: 1.84;
+    color: #777777;
+  }
+  .download-desc3 {
+    margin-right: 0px;
+    margin-top: -140px;
+    width: 55%;
+    flex-direction: row;
+    font-size: 17.6px;
+    font-weight: normal;
+    line-height: 1.84;
+    color: #777777;
+    margin-left: 700px;
+  }
+.download-desc4 {
+  margin-right: -200px;
+  margin-top: -10px;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  font-size: 17.6px;
+  font-weight: normal;
+  line-height: 1.84;
+  color: #777777;
+  margin-left: 500px;
+}
+  
+  .download-store {
+    display: flex;
+    width: 100%;
+    align-items: left;
+  }
+  
+  .download-store {
+    margin-top: 3px;
+    margin-left: 75px;
+    display: flex;
+  }
+  
+  .download-store1 {
+    height: 45px;
+    width: 160px;
+    margin-right: 0px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .download-store2 {
+    height: 45px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+  .download-store3 {
+    margin-top: -180px;
+    margin-left: 480px;
+    display: list-item;
+    margin-bottom: 300px;
+    height: 180px;
+  }
+  .download-store4 {
+    margin-top: -435px;
+    margin-left: 1150px;
+    display: list-item;
+    margin-bottom: 300px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 700px) {
+    .download-container {
+      flex-direction: column;
+      padding-bottom: 20px;
+      margin-top: 20px;
+    }
+    .download-img-container {
+      width: 50%;
+    }
+    .download-content {
+      width: 80%;
+      margin-top: 20px;
+    }
+    .download-title {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.33;
+      color: #222222;
+      margin-bottom: 15px;
+    }
+  }

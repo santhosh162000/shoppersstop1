@@ -17,6 +17,12 @@ import Footer4 from './component/Footer4';
 import Footer3 from './component/Footer3';
 import Footer2 from './component/Footer2';
 import Foot from './component/Foot';
+import Slide7 from './component/Slide7';
+import Slide8 from './component/Slide8';
+import Slide9 from './component/Slide9';
+import DownloadApp1 from './component/Slide10';
+import DownloadApp from './component/Download';
+import CarouselContainer5 from './component/CarouselContainer5';
 
 function App() {
   return (
@@ -30,11 +36,17 @@ function App() {
       <Slide3 />
       <Slide4 />
       <CarouselContainer1 />
-      <CarouselContainer2 />
+      <DownloadApp1 />
       <CarouselContainer3 />
       <Slide5 />
+      <CarouselContainer2 />
       <CarouselContainer4 />
       <Slide6 />
+      <Slide7 />
+      <Slide8 />
+      <Slide9 />
+      <CarouselContainer5 />
+      <DownloadApp />
       <Footer2 />
       <Foot />
       <Footer3 />

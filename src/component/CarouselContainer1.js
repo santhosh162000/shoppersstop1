@@ -2,6 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 import image10 from './../assets/images/10.webp';
+import image10a from './../assets/images/10a.webp';
+import image10b from './../assets/images/10b.webp';
 import image11 from './../assets/images/11.webp';
 
 const CarouselContainer1 = () => {
@@ -12,6 +14,20 @@ const CarouselContainer1 = () => {
           className="d-block w-100"
           src={image10}
           alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={image10a}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={image10b}
+          alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item interval={2000}>
